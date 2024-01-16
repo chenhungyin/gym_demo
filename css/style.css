@@ -1,0 +1,83 @@
+body {
+    background-color: #FFEFE8;
+    background-image: url("../images/istockphoto-485255296-612x612.jpg");
+    background-size: contain;
+    color: black;
+    font-family: 微軟正黑體, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h1-title {
+    text-align: center;
+    color: rgb(2, 135, 138);
+    background-color: #C69774;
+    font-size: 2rem;
+    font-family: 微軟正黑體, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 6px;
+    /*上左下右 */
+    margin: 24px 48px;
+    /* 內間距 */
+    padding: 12px;
+}
+
+#container {
+    padding: 1rem;
+}
+
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: aliceblue;
+}
+
+@media screen and (max-width:1028px) {
+    form {
+        width: 80%;
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+    table {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+        font-size: 12px;
+    }
+
+}
+
+form {
+    text-align: center;
+    width: 60%;
+    background-color: #F7B787;
+    background-image: url("../images/istockphoto-1213615970-612x612.jpg");
+    background-size: cover;
+    padding: 1rem 0px;
+    border-radius: 1rem;
+    margin: 6px auto;
+}
+
+input,
+textarea,
+label,
+button {
+    margin: 12px 0px;
+    font-size: 20px;
+}
+
+button {
+    background-color: #D0F288;
+    border-radius: 10gitpx;
+
+}
